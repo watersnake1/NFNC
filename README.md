@@ -36,3 +36,5 @@ Now, run `chmod +x compile.sh && ./compile` and wait for the circuit to initiali
 * Generalize the system
 * Build a frontend
 
+## WARNING
+This is EXPERIMENTAL software made by someone who is NOT a professional cryptographer. Use at your own risk. DO NOT use your real wallets in this program for now. I recommend https://github.com/watersnake1/AddressPy for quickly generating throwaway wallets. Also, your computer's speed will greatly effect UX. 
