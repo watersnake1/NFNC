@@ -3,6 +3,7 @@ const { Network, Alchemy } = require('alchemy-sdk');
 const checkAddr = process.argv[2];
 const Web3 = require('web3');
 const fs = require('fs');
+const http = require('http');
 require('dotenv').config();
 console.log(checkAddr);
 
@@ -63,5 +64,6 @@ const runMain = async () => {
     process.exit(1);
   }
 };
+
 
 runMain();
